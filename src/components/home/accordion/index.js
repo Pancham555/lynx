@@ -11,16 +11,16 @@ const Accordion = () => {
       <div className="flex flex-wrap items-center justify-between md:flex-nowrap">
         <div className="md:max-w-[50%] px-5 md:px-10 w-full">
           <div className="mb-2 text-6xl font-bold leading-tight">
-            Grow your business with{" "}
-            <span className="text-theme">our solution</span>
+            Driven by a{" "}
+            <span className="text-theme">Passion for Innovation</span>
           </div>
           <div className="my-5 text-xl font-medium">
-            We believe in growing others by sharing our knowledge, expertise,
-            and resources to help our clients and fellow freelancers achieve
-            their goals.
+            I'm committed to fostering growth and development through
+            collaboration. With my expertise and passion, I'm ready to make a
+            positive impact and contribute to a company's success.
           </div>
-          <div className="flex justify-between gap-6 my-5 md:justify-start">
-            <a href="#solutions">
+          <div className="flex justify-between gap-6 mt-10 mb-5 md:justify-start flex-wrap md:flex-nowrap">
+            <a href="#solutions" className="w-full md:w-auto">
               <Btn1>Get Started</Btn1>
             </a>
             <Btn2 onClick={() => router.push("/ai-art")}>Explore AI Art</Btn2>

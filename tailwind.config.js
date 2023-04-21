@@ -16,11 +16,11 @@ module.exports = {
         // "blob": "url('/blob-haikei.svg')"
       },
       colors: {
-        "theme": "#03C988",
+        theme: "#03C988",
         "theme-2": "#6955EA",
-        "theme-light": "#c6f8cb"
+        "theme-light": "#c6f8cb",
       },
     },
   },
   plugins: [],
-}
+};

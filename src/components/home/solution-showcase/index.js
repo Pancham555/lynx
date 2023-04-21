@@ -4,14 +4,22 @@ import Slider from "@/components/components/slider";
 
 const SolutionShowcase = () => {
   return (
-    <div id="solutions" className="flex flex-col items-center justify-center w-full px-5 py-10 bg-white md:py-16 md:px-10">
+    <div
+      id="solutions"
+      className="flex flex-col items-center justify-center w-full px-5 py-10 bg-white md:py-16 md:px-10"
+    >
       <div className="flex flex-col w-full max-w-screen-xl h-full">
         <div className="md:max-w-[60%] w-full md:pt-20 pt-10 pb-10 md:pb-20">
           <div className="text-5xl font-extrabold leading-tight text-gray-800">
-            We Provide The Best For Your Business Development
+            Strategies for Effective Work in a Business Environment
           </div>
           <div className="my-5 text-lg font-medium text-gray-500">
-            We believe that providing the best services requires a deep understanding of our clients&apos; needs and goals.Through clear communication, we work collaboratively to ensure that our team of talented freelancers delivers high-quality work that meets or exceeds our clients&apos; expectations.
+            As a web developer, I prioritize professionalism, adaptability,
+            communication, and teamwork to succeed in a business environment. I
+            understand the company culture, communicate clearly, collaborate
+            effectively with team members, and remain open to change. By
+            utilizing these strategies, I aim to achieve positive outcomes and
+            contribute to the overall success of the business.
           </div>
         </div>
         <Slider />
