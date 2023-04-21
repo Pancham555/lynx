@@ -1,0 +1,4 @@
+.element:hover .arrow {
+  transition-duration: 200ms;
+  transform: translate(4px);
+}

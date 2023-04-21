@@ -1,0 +1,7 @@
+.text-background {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-image: url("https://cdn.leonardo.ai/users/3bf5e16f-0677-4834-a7f4-f1b6ef065f57/generations/08f54584-1a88-4850-abde-085c408210a3/Leonardo_Diffusion_A_greyish_green_colored_long_aliens_whole_b_0.jpg");
+  /* background-image: url("https://images.unsplash.com/photo-1618397746666-63405ce5d015?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"); */
+}
