@@ -27,7 +27,7 @@ const WorkTogether = () => {
             As a web developer, I prioritize effective collaboration with team
             members. My approach involves clear communication, respectful
             feedback, adaptability, trust, and accountability. I actively
-            listen, provide updates, and focus on solutions. I'm open to
+            listen, provide updates, and focus on solutions. I&apos;m open to
             learning and can pivot quickly. By taking full accountability,
             meeting deadlines, and earning trust, I aim to achieve successful
             outcomes for all.

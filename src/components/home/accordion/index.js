@@ -15,9 +15,9 @@ const Accordion = () => {
             <span className="text-theme">Passion for Innovation</span>
           </div>
           <div className="my-5 text-xl font-medium">
-            I'm committed to fostering growth and development through
-            collaboration. With my expertise and passion, I'm ready to make a
-            positive impact and contribute to a company's success.
+            I&apos;m committed to fostering growth and development through
+            collaboration. With my expertise and passion, I&apos;m ready to make
+            a positive impact and contribute to a company&apos;s success.
           </div>
           <div className="flex justify-between gap-6 mt-10 mb-5 md:justify-start flex-wrap md:flex-nowrap">
             <a href="#solutions" className="w-full md:w-auto">

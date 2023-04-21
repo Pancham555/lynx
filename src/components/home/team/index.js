@@ -60,6 +60,7 @@ const Team = () => {
               src={"/blob-haikei.svg"}
               width={2000}
               height={2000}
+              alt="Blob"
               className="absolute left-0 w-full h-full rotate-180 md:px-2.5 top-10 -z-10"
             />
             <Image
