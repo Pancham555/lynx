@@ -1,0 +1,11 @@
+Model Information:
+* title:	Star Wars - Red Reaper | Harrower-class
+* source:	https://sketchfab.com/3d-models/star-wars-red-reaper-harrower-class-a5ca72b9e280496586e5424d82df128c
+* author:	NepsterCZ (https://sketchfab.com/NepsterCZ)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Star Wars - Red Reaper | Harrower-class" (https://sketchfab.com/3d-models/star-wars-red-reaper-harrower-class-a5ca72b9e280496586e5424d82df128c) by NepsterCZ (https://sketchfab.com/NepsterCZ) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -4,6 +4,8 @@
 html {
   scroll-behavior: smooth;
 }
-/* :root {
-  theme-light: #c6f8cb;
-} */
+:root {
+  margin: 0;
+  padding: 0;
+  /* theme-light: #c6f8cb; */
+}

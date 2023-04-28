@@ -23,10 +23,13 @@ const Team = () => {
     "React Native",
     "Redux.js",
     "Next.js",
+    "Three.js",
     "Node.js",
     "MongoDB",
     "Mongoose.js",
     "SQL",
+    "MySQL",
+    "PostgresSQL",
     "Express.js",
     "Strapi",
     "Git",
@@ -47,15 +50,20 @@ const Team = () => {
       name: "My Resume",
       link: "https://drive.google.com/file/d/1PDqefBaTJhe6TvjnniDi4Qw52HDtm-Oa/view?usp=sharing",
     },
+    {
+      name: "My YouTube Channel (mostly post meme/ai generated videos)",
+      link: "https://www.youtube.com/@crusader_lynx?sub_confirmation=1",
+    },
   ];
   return (
     <div className="flex justify-center px-5 py-10 md:px-10 md:py-16">
       <div className="w-full h-full max-w-screen-xl">
         <div className="w-full mt-10 mb-10 text-5xl font-bold text-center">
-          Meet The <span className="text-theme">Developer</span>
+          Meet The <span className="text-theme-2">Developer</span>
         </div>
         <div className="flex flex-wrap justify-center h-auto md:justify-between md:flex-nowrap">
-          <div className="w-full md:min-w-[45%] my-10 relative">
+          {/* md:justify-between md:flex-nowrap */}
+          <div className="w-full md:min-w-[45%] h-full my-10 relative">
             <Image
               src={"/blob-haikei.svg"}
               width={2000}
@@ -73,10 +81,13 @@ const Team = () => {
             />
           </div>
           <div className="w-auto my-auto">
-            <div className="text-4xl font-semibold">Name: Pancham Barman</div>
+            <div className="text-4xl font-semibold">
+              Name: <span className="text-theme-2">Pancham</span>{" "}
+              <span className="text-theme">Barman</span>
+            </div>
             <div className="w-full mt-10">
               <div className="text-3xl font-semibold">
-                <span className="font-extrabold text-theme">Skills</span> I
+                <span className="font-extrabold text-theme-2">Skills</span> I
                 posses:
               </div>
               <div className="flex flex-wrap w-full my-5">
@@ -84,7 +95,7 @@ const Team = () => {
                   return (
                     <span
                       key={index}
-                      className="inline-flex items-center justify-center px-4 py-2 my-2 mr-2 text-xl font-bold leading-none text-white rounded-full bg-theme"
+                      className="inline-flex items-center justify-center px-4 py-2 my-2 mr-2 text-xl font-bold leading-none text-white rounded-full bg-theme-2"
                     >
                       {data}
                     </span>
@@ -92,7 +103,9 @@ const Team = () => {
                 })}
               </div>
               <div className="w-full">
-                <div className="text-3xl font-bold">Useful Links</div>
+                <div className="text-3xl font-bold">
+                  Useful <span className="text-theme">links</span>
+                </div>
                 <div className="flex flex-wrap justify-between w-full">
                   {links.map((data, index) => {
                     return (

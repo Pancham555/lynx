@@ -7,7 +7,9 @@ const Navbar = ({ value = false }) => {
   const routes = [
     { name: "Home", link: "/home" },
     { name: "About us", link: "/aboutus" },
-    { name: "AI Art", link: "/ai-art" },
+    // { name: "AI Art", link: "/ai-art" },
+    { name: "Login", link: "/login" },
+    { name: "Sign up", link: "/signup" },
   ];
   const [openState, setOpenState] = useState(false);
   return (
@@ -34,7 +36,7 @@ const Navbar = ({ value = false }) => {
                 alt="logo"
                 width={50}
                 height={50}
-                className="w-24 md:ml-3 my-2.5"
+                className="w-24 md:ml-3 my-3"
               />
             </Link>
           </div>
@@ -42,7 +44,7 @@ const Navbar = ({ value = false }) => {
             {routes.map(({ name, link }, index) => {
               return (
                 <Link href={link} key={index} aria-label={name}>
-                  <div className="hidden mx-10 text-xl font-semibold cursor-pointer md:block">
+                  <div className="hidden mx-8 text-xl font-semibold cursor-pointer md:block">
                     {name}
                   </div>
                 </Link>
@@ -81,18 +83,20 @@ const Navbar = ({ value = false }) => {
         <div className="w-full px-5">
           <div
             className={`${
-              openState ? "h-40" : "h-0"
+              openState ? "h-56" : "h-0"
             } duration-200 w-full md:hidden block bg-white z-50 overflow-hidden`}
           >
-            {routes.map(({ name, link }, index) => {
-              return (
-                <Link href={link} key={index} aria-label={name}>
-                  <div className="block w-full mx-5 mt-5 text-lg font-medium text-gray-800 cursor-pointer">
-                    {name}
-                  </div>
-                </Link>
-              );
-            })}
+            <div className="flex flex-col justify-evenly w-full h-full">
+              {routes.map(({ name, link }, index) => {
+                return (
+                  <Link href={link} key={index} aria-label={name}>
+                    <div className="block w-full mx-5 text-lg font-medium text-gray-800 cursor-pointer">
+                      {name}
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
           </div>
         </div>
         {/* Navbar components */}

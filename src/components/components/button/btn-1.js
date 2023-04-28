@@ -11,7 +11,7 @@ const Btn1 = ({
       onClick={onClick}
       style={{ textSizeAdjust: "20%" }}
       className={`inline-block cursor-pointer px-6 py-4 font-semibold
-           rounded-md text-xl w-full lg:w-auto text-center ${bgcolor} ${textcolor}`}
+           rounded-md text-xl w-auto text-center ${bgcolor} ${textcolor}`}
     >
       {children}
     </div>

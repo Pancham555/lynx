@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import AboutusLayout from "./aboutus-layout";
+import AboutusLayout from "./layout";
 
 const Aboutus = () => {
   return (
@@ -10,8 +10,13 @@ const Aboutus = () => {
         <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-10">
           <div className="py-12 md:py-20">
             <div className="max-w-7xl mx-auto text-center pb-8">
-              <Image src="/logo.svg" width={500} height={500}
-                className="h-36 mx-auto mb-4" alt="Logo" />
+              <Image
+                src="/logo.svg"
+                width={500}
+                height={500}
+                className="h-36 mx-auto mb-4"
+                alt="Logo"
+              />
               <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
                 About Us
               </h2>
