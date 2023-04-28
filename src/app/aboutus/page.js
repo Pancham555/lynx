@@ -11,7 +11,7 @@ const Aboutus = () => {
           <div className="py-12 md:py-20">
             <div className="max-w-7xl mx-auto text-center pb-8">
               <Image
-                src="/logo.svg"
+                src="/Next Lynx.svg"
                 width={500}
                 height={500}
                 className="h-36 mx-auto mb-4"

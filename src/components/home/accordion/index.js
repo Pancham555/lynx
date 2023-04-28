@@ -3,9 +3,6 @@ import React, { useEffect, useRef } from "react";
 import Btn1 from "@/components/components/button/btn-1";
 import Btn2 from "@/components/components/button/btn-2";
 import { useRouter } from "next/navigation";
-import Model from "../../components/spaceship/ModelDraco";
-// import { Canvas } from "@react-three/fiber";
-// import { OrbitControls } from "@react-three/drei";
 const Accordion = () => {
   const router = useRouter();
   // const ref = useRef(null);

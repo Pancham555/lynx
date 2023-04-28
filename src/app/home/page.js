@@ -10,6 +10,7 @@ import WorkTogether from "@/components/home/work-together";
 import { Raleway } from "next/font/google";
 import React from "react";
 import { useInView } from "react-intersection-observer";
+import GoToTopButton from "@/components/components/goToTop/goToTop";
 
 const font = Raleway({
   weight: "variable",
@@ -27,6 +28,7 @@ const Home = () => {
       <Navbar value={inView.valueOf()} />
       <Accordion />
       <div ref={ref} className="w-full h-full">
+        <GoToTopButton />
         <SolutionShowcase />
         <WorkTogether />
         <WhyChooseUs />
