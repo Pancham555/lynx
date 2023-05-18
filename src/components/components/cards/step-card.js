@@ -11,10 +11,8 @@ const StepCard = ({
         <div className="text-5xl font-bold md:p-5 p-2.5">{number}</div>
       </div>
       <div className="md:max-w-[90%] py-4 pr-2.5 md:pr-5">
-        <div className="text-3xl font-semibold leading-tight mb-2">
-          {heading}
-        </div>
-        <div className="text-lg font-medium">{desc}</div>
+        <div className="text-3xl font-medium leading-tight mb-2">{heading}</div>
+        <div className="text-lg font-normal">{desc}</div>
       </div>
     </div>
   );

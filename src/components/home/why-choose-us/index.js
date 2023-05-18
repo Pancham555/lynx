@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
           <div className="mb-2 text-6xl text-center md:text-left font-bold leading-tight">
             Why choose me?
           </div>
-          <div className="my-5 text-2xl font-medium text-gray-500">
+          <div className="my-5 text-2xl md:font-medium text-gray-500">
             With a strong technical background in web technologies, creativity,
             and meticulous attention to detail, I am a passionate web developer
             who keeps up with the latest trends and technologies. My excellent

@@ -36,7 +36,7 @@ const Navbar = ({ value = false }) => {
                 alt="logo"
                 width={50}
                 height={50}
-                className="w-24 md:ml-3 my-2.5"
+                className="w-24 md:ml-3 my-1.5"
               />
             </Link>
           </div>
