@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Slider from "@/components/components/slider";
+// import Slider from "@/components/components/slider";
 import Image from "next/image";
 
 const Team = () => {
@@ -17,6 +17,7 @@ const Team = () => {
     "HTML",
     "CSS",
     "Javascript",
+    "Typescript",
     "Tailwind.css",
     "Bootstrap",
     "React.js",
@@ -26,9 +27,10 @@ const Team = () => {
     "Three.js",
     "Node.js",
     "MongoDB",
-    "Mongoose.js",
     "SQL",
-    "MySQL",
+    "Postgresql",
+    "Mongoose.js",
+    // "MySQL",
     "PostgresSQL",
     "Express.js",
     "Strapi",
@@ -37,6 +39,7 @@ const Team = () => {
     "Python",
     "Flask",
     "Django",
+    "Django Rest",
     "Scikit-Learn",
     "PHP",
   ];
@@ -48,12 +51,12 @@ const Team = () => {
     },
     {
       name: "My Resume",
-      link: "https://drive.google.com/file/d/1PDqefBaTJhe6TvjnniDi4Qw52HDtm-Oa/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1Mii5Q98L2xEMXdQWr3cMyzFtxEdy5q4I/view?usp=drive_link",
     },
-    {
-      name: "My YouTube Channel (mostly post meme/ai generated videos)",
-      link: "https://www.youtube.com/@crusader_lynx?sub_confirmation=1",
-    },
+    // {
+    //   name: "My YouTube Channel (mostly post meme/ai generated videos)",
+    //   link: "https://www.youtube.com/@crusader_lynx?sub_confirmation=1",
+    // },
   ];
   return (
     <div className="flex justify-center px-5 py-10 md:px-10 md:py-16">

@@ -8,15 +8,15 @@ const Navbar = ({ value = false }) => {
     { name: "Home", link: "/home" },
     { name: "About us", link: "/aboutus" },
     // { name: "AI Art", link: "/ai-art" },
-    { name: "Login", link: "/login" },
-    { name: "Sign up", link: "/signup" },
+    // { name: "Login", link: "/login" },
+    // { name: "Sign up", link: "/signup" },
   ];
   const [openState, setOpenState] = useState(false);
   return (
     <div className="fixed top-0 left-0 right-0 z-50 flex justify-center w-full">
       <div className="flex flex-col items-center w-full h-full">
         <div
-          className={`flex justify-between items-center py-1.5 backdrop-blur-sm w-full px-5
+          className={`flex justify-between items-center py-2 backdrop-blur-sm w-full px-5
         ${
           value
             ? "bg-white text-gray-800 opacity-90"
