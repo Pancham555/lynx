@@ -45,10 +45,10 @@ const Team = () => {
   ];
   const links = [
     { name: "Github Profile", link: "https://github.com/Pancham555" },
-    {
-      name: "LinkedIn Profile",
-      link: "https://www.linkedin.com/in/pancham-barman",
-    },
+    // {
+    //   name: "LinkedIn Profile",
+    //   link: "https://www.linkedin.com/in/pancham-barman",
+    // },
     {
       name: "My Resume",
       link: "https://drive.google.com/file/d/1Mii5Q98L2xEMXdQWr3cMyzFtxEdy5q4I/view?usp=drive_link",
