@@ -6,7 +6,7 @@ import Image from "next/image";
 const Navbar = ({ value = false }) => {
   const routes = [
     { name: "Home", link: "/home" },
-    { name: "About us", link: "/aboutus" },
+    // { name: "About us", link: "/aboutus" },
     // { name: "AI Art", link: "/ai-art" },
     // { name: "Login", link: "/login" },
     // { name: "Sign up", link: "/signup" },

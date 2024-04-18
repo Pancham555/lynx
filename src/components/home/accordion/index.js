@@ -33,15 +33,17 @@ const Accordion = () => {
               collaboration. With my expertise and passion, I&apos;m ready to
               make a positive impact and contribute to a company&apos;s success.
             </div>
-            <div className="flex justify-between gap-6 mt-10 mb-5 md:justify-start flex-nowrap">
+            <div className="flex justify-between gap-2 lg:gap-6 mt-10 mb-5 md:justify-start flex-nowrap">
               {/* flex-wrap md: */}
-              <a href="#solutions" className="w-full md:w-auto">
-                <Btn1>Get Started</Btn1>
+              <a href="#solutions" className="w-auto">
+                <Btn1>See projects</Btn1>
               </a>
               <Btn2
-              // onClick={() => router.push("/ai-art")}
+                onClick={() =>
+                  window.open("https://tail-blogs.vercel.app/", "_blank")
+                }
               >
-                Explore
+                View my blog
               </Btn2>
             </div>
           </div>

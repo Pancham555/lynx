@@ -5,7 +5,7 @@ const Btn2 = ({ children, onClick }) => {
   return (
     <div
       onClick={onClick}
-      className="inline-block px-6 py-4 w-auto text-xl font-semibold text-white bg-transparent rounded-md cursor-pointer element"
+      className="inline-block px-3 lg:px-6 py-4 w-auto text-lg lg:text-xl font-semibold text-white bg-transparent rounded-md cursor-pointer element"
     >
       <div className="flex items-center justify-between w-full gap-5">
         {/* justify-center */}

@@ -21,7 +21,7 @@ const Footer = () => {
                     />
                   </div>
                 </div>
-                <p className="-mt-5 text-base text-body-color mb-7">
+                <p className="-mt-5 text-base text-bodstopColor mb-7">
                   Your go-to destination for creating a professional and modern
                   website that showcases your brand and captures your
                   audience&apos;s attention.
@@ -50,22 +50,22 @@ const Footer = () => {
                 </h4>
                 <ul>
                   <li>
-                    <div className="inline-block mb-2 text-base leading-loose text-body-color hover:text-primary">
+                    <div className="inline-block mb-2 text-base leading-loose text-bodstopColor hover:text-primary">
                       SaaS Development
                     </div>
                   </li>
                   <li>
-                    <div className="inline-block mb-2 text-base leading-loose text-body-color hover:text-primary">
+                    <div className="inline-block mb-2 text-base leading-loose text-bodstopColor hover:text-primary">
                       Our Products
                     </div>
                   </li>
                   <li>
-                    <div className="inline-block mb-2 text-base leading-loose text-body-color hover:text-primary">
+                    <div className="inline-block mb-2 text-base leading-loose text-bodstopColor hover:text-primary">
                       User Flow
                     </div>
                   </li>
                   <li>
-                    <div className="inline-block mb-2 text-base leading-loose text-body-color hover:text-primary">
+                    <div className="inline-block mb-2 text-base leading-loose text-bodstopColor hover:text-primary">
                       User Strategy
                     </div>
                   </li>
@@ -79,22 +79,22 @@ const Footer = () => {
                 </h4>
                 <ul>
                   <li>
-                    <div className="inline-block mb-2 text-base leading-loose text-body-color hover:text-primary">
+                    <div className="inline-block mb-2 text-base leading-loose text-bodstopColor hover:text-primary">
                       About Next-Site
                     </div>
                   </li>
                   <li>
-                    <div className="inline-block mb-2 text-base leading-loose text-body-color hover:text-primary">
+                    <div className="inline-block mb-2 text-base leading-loose text-bodstopColor hover:text-primary">
                       Contact & Support
                     </div>
                   </li>
                   <li>
-                    <div className="inline-block mb-2 text-base leading-loose text-body-color hover:text-primary">
+                    <div className="inline-block mb-2 text-base leading-loose text-bodstopColor hover:text-primary">
                       Success History
                     </div>
                   </li>
                   <li>
-                    <div className="inline-block mb-2 text-base leading-loose text-body-color hover:text-primary">
+                    <div className="inline-block mb-2 text-base leading-loose text-bodstopColor hover:text-primary">
                       Setting & Privacy
                     </div>
                   </li>
@@ -108,22 +108,22 @@ const Footer = () => {
                 </h4>
                 <ul>
                   <li>
-                    <div className="inline-block mb-2 text-base leading-loose text-body-color hover:text-primary">
+                    <div className="inline-block mb-2 text-base leading-loose text-bodstopColor hover:text-primary">
                       Premium Support
                     </div>
                   </li>
                   <li>
-                    <div className="inline-block mb-2 text-base leading-loose text-body-color hover:text-primary">
+                    <div className="inline-block mb-2 text-base leading-loose text-bodstopColor hover:text-primary">
                       Our Services
                     </div>
                   </li>
                   <li>
-                    <div className="inline-block mb-2 text-base leading-loose text-body-color hover:text-primary">
+                    <div className="inline-block mb-2 text-base leading-loose text-bodstopColor hover:text-primary">
                       Know Our Team
                     </div>
                   </li>
                   <li>
-                    <div className="inline-block mb-2 text-base leading-loose text-body-color hover:text-primary">
+                    <div className="inline-block mb-2 text-base leading-loose text-bodstopColor hover:text-primary">
                       Download App
                     </div>
                   </li>
@@ -177,7 +177,7 @@ const Footer = () => {
                     </svg>
                   </div>
                 </div>
-                <p className="text-base text-body-color">
+                <p className="text-base text-bodstopColor">
                   &copy; 2023 Next-Site
                 </p>
               </div>
@@ -206,8 +206,8 @@ const Footer = () => {
                   y2="1.22829e-05"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#3056D3" stop-opacity="0.08" />
-                  <stop offset="1" stop-color="#C4C4C4" stop-opacity="0" />
+                  <stop stopColor="#3056D3" stopOpacity="0.08" />
+                  <stop offset="1" stopColor="#C4C4C4" stopOpacity="0" />
                 </linearGradient>
               </defs>
             </svg>
@@ -233,8 +233,8 @@ const Footer = () => {
                                 y2="37.5"
                                 gradientUnits="userSpaceOnUse"
                             >
-                                <stop stop-color="#13C296" stop-opacity="0.31" />
-                                <stop offset="1" stop-color="#C4C4C4" stop-opacity="0" />
+                                <stop stopColor="#13C296" stopOpacity="0.31" />
+                                <stop offset="1" stopColor="#C4C4C4" stopOpacity="0" />
                             </linearGradient>
                         </defs>
                     </svg> */}
