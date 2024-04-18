@@ -1,28 +1,37 @@
 import Image from "next/image";
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import Btn1 from "@/components/components/button/btn-1";
 import Btn2 from "@/components/components/button/btn-2";
 import { useRouter } from "next/navigation";
 const Accordion = () => {
   const router = useRouter();
-  // const ref = useRef(null);
+  const ref = useRef(null);
   useEffect(() => {
     // const audio = new Audio(
     //   "/Star Wars_ Across The Stars  CINEMATIC EMOTIONAL VERSION.mp3"
     // );
     // audio.play();
-    // audio.loop = true;
-    // audio.volume = 0.1;
+    ref.current.loop = true;
+    ref.current.volume = 0.1;
+    ref.current.play();
   }, []);
   return (
-    <>
+    <div className="bg-gray-900">
+      <video
+        src="/portfolio.mp4"
+        autoPlay={true}
+        ref={ref}
+        width="100"
+        height="300"
+        className="absolute w-full h-full bg-cover z-0 opacity-100"
+      ></video>
       <div
         // style={{
         //   clipPath: `polygon(0 0, 100% 0, 100% 32rem, 0 100%)`,
-        // }}
-        className="w-full min-h-[40rem] h-full pt-20 pb-10 bg-cover bg-gray-900 text-white flex flex-col justify-center items-center"
+        // }} bg-gray-900
+        className="w-full min-h-[40rem] h-full py-10 bg-cover  text-white flex flex-col justify-center items-center"
       >
-        <div className="flex flex-wrap items-center justify-between md:flex-nowrap">
+        <div className="flex flex-wrap items-center justify-between md:flex-nowrap z-20">
           <div className="md:max-w-[50%] px-5 md:px-10 w-full my-auto">
             <div className="mb-2 text-6xl font-bold leading-tight">
               Driven by a{" "}
@@ -49,8 +58,8 @@ const Accordion = () => {
           </div>
           <div className="md:max-w-[50%] w-full h-full my-auto relative">
             <Image
-              width={1000}
-              height={1000}
+              width={900}
+              height={900}
               src="/innovation-animate.svg"
               className="w-full h-full z-50 md:px-10 px-2.5"
               alt="Top image"
@@ -64,7 +73,7 @@ const Accordion = () => {
         }}
         className={" bg-gray-900 w-full h-32 -scale-x-100"}
       ></div> */}
-    </>
+    </div>
   );
 };
 
