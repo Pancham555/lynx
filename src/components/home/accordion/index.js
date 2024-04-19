@@ -11,20 +11,12 @@ const Accordion = () => {
     //   "/Star Wars_ Across The Stars  CINEMATIC EMOTIONAL VERSION.mp3"
     // );
     // audio.play();
-    ref.current.loop = true;
-    ref.current.volume = 0.1;
+    // ref.current.loop = true;
+    ref.current.volume = 0.05;
     ref.current.play();
   }, []);
   return (
     <div className="bg-gray-900">
-      <video
-        src="/portfolio.mp4"
-        autoPlay={true}
-        ref={ref}
-        width="100"
-        height="300"
-        className="absolute w-full h-full bg-cover z-0 opacity-100"
-      ></video>
       <div
         // style={{
         //   clipPath: `polygon(0 0, 100% 0, 100% 32rem, 0 100%)`,
@@ -33,6 +25,14 @@ const Accordion = () => {
       >
         <div className="flex flex-wrap items-center justify-between md:flex-nowrap z-20">
           <div className="md:max-w-[50%] px-5 md:px-10 w-full my-auto">
+            <audio
+              src="/music.mp3"
+              ref={ref}
+              type="audio/mpeg"
+              controls
+              loop
+              className="hidden"
+            ></audio>
             <div className="mb-2 text-6xl font-bold leading-tight">
               Driven by a{" "}
               <span className="text-theme">Passion for Innovation</span>

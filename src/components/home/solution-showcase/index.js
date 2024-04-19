@@ -23,7 +23,7 @@ const SolutionShowcase = () => {
               contribute to the overall success of the business.
             </div>
           </div>
-          <Slider />
+          {/* <Slider /> */}
         </div>
       </div>
       <div className="bg-theme">
