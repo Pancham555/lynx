@@ -10,6 +10,10 @@ import WorkTogether from "@/components/home/work-together";
 import React from "react";
 import { useInView } from "react-intersection-observer";
 import GoToTopButton from "@/components/components/goToTop/goToTop";
+import Model from "@/components/components/spaceship/ModelDraco";
+import { Canvas } from "@react-three/fiber";
+import { Environment, OrbitControls } from "@react-three/drei";
+import SpaceShip from "@/components/home/model";
 
 const Home = () => {
   const { ref, inView } = useInView({
@@ -23,6 +27,7 @@ const Home = () => {
       <div ref={ref} className="w-full h-full">
         <GoToTopButton />
         <SolutionShowcase />
+        <SpaceShip />
         <WorkTogether />
         <WhyChooseUs />
         <Team />

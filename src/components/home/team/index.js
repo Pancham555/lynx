@@ -59,7 +59,10 @@ const Team = () => {
     // },
   ];
   return (
-    <div className="flex justify-center px-5 py-10 md:px-10 md:py-16">
+    <div
+      id="developer"
+      className="flex justify-center px-5 py-10 md:px-10 md:py-16"
+    >
       <div className="w-full h-full max-w-screen-xl">
         <div className="w-full mt-10 mb-10 text-5xl font-bold text-center">
           Meet The <span className="text-theme-2">Developer</span>

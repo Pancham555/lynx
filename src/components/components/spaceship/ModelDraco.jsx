@@ -13,7 +13,7 @@ import { useGLTF } from "@react-three/drei";
 export default function Model(props) {
   const { nodes, materials } = useGLTF("/scene.gltf");
   return (
-    <group {...props} dispose={null} rotation={[30, 180, 120]} scale={0.28}>
+    <group {...props} dispose={null}>
       <mesh
         geometry={nodes.Harrower_0.geometry}
         material={materials.Details03}

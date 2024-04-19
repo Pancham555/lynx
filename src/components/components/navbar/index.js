@@ -5,18 +5,18 @@ import Image from "next/image";
 
 const Navbar = ({ value = false }) => {
   const routes = [
-    { name: "Home", link: "/home" },
-    // { name: "About us", link: "/aboutus" },
-    // { name: "AI Art", link: "/ai-art" },
-    // { name: "Login", link: "/login" },
-    // { name: "Sign up", link: "/signup" },
+    // { name: "Home", link: "/home" },
+    { name: "Blog", link: "https://tail-blogs.vercel.app" },
+    { name: "Projects", link: "#projects" },
+    { name: "Developer", link: "#developer" },
+    { name: "Contact", link: "#contact" },
   ];
   const [openState, setOpenState] = useState(false);
   return (
     <div className="fixed top-0 left-0 right-0 z-50 flex justify-center w-full">
       <div className="flex flex-col items-center w-full h-full">
         <div
-          className={`flex justify-between items-center py-2 backdrop-blur-sm w-full px-5
+          className={`flex justify-between items-center py-3 backdrop-blur-sm w-full px-5
         ${
           value
             ? "bg-white text-gray-800 opacity-90"
@@ -42,13 +42,29 @@ const Navbar = ({ value = false }) => {
           </div>
           <div className="flex justify-between my-auto md:ml-20">
             {routes.map(({ name, link }, index) => {
-              return (
-                <Link href={link} key={index} aria-label={name}>
-                  <div className="hidden mx-8 text-xl font-semibold cursor-pointer md:block">
-                    {name}
-                  </div>
-                </Link>
-              );
+              if (link.startsWith("#")) {
+                return (
+                  <a href={link} key={index} aria-label={name}>
+                    <div className="hidden mx-8 text-xl font-semibold cursor-pointer md:block">
+                      {name}
+                    </div>
+                  </a>
+                );
+              } else {
+                return (
+                  <a
+                    href={link}
+                    target="_blank"
+                    referrerPolicy="no-referrer"
+                    key={index}
+                    aria-label={name}
+                  >
+                    <div className="hidden mx-8 text-xl font-semibold cursor-pointer md:block">
+                      {name}
+                    </div>
+                  </a>
+                );
+              }
             })}
             {/* Navbar button */}
             <div
@@ -83,18 +99,34 @@ const Navbar = ({ value = false }) => {
         <div className="w-full px-5">
           <div
             className={`${
-              openState ? "h-56" : "h-0"
+              openState ? "h-72" : "h-0"
             } duration-200 w-full md:hidden block bg-white z-50 overflow-hidden`}
           >
             <div className="flex flex-col justify-evenly w-full h-full">
               {routes.map(({ name, link }, index) => {
-                return (
-                  <Link href={link} key={index} aria-label={name}>
-                    <div className="block w-full mx-5 text-lg font-medium text-gray-800 cursor-pointer">
-                      {name}
-                    </div>
-                  </Link>
-                );
+                if (link.startsWith("#")) {
+                  return (
+                    <a href={link} key={index} aria-label={name}>
+                      <div className="block w-full mx-5 text-lg font-medium text-gray-800 cursor-pointer">
+                        {name}
+                      </div>
+                    </a>
+                  );
+                } else {
+                  return (
+                    <a
+                      href={link}
+                      target="_blank"
+                      referrerPolicy="no-referrer"
+                      key={index}
+                      aria-label={name}
+                    >
+                      <div className="block w-full mx-5 text-lg font-medium text-gray-800 cursor-pointer">
+                        {name}
+                      </div>
+                    </a>
+                  );
+                }
               })}
             </div>
           </div>

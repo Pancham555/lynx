@@ -4,7 +4,10 @@ import Btn1 from "@/components/components/button/btn-1";
 
 const InterestedInWork = () => {
   return (
-    <div className="flex justify-center px-5 py-10 md:py-16 md:px-10">
+    <div
+      id="contact"
+      className="flex justify-center px-5 py-10 md:py-16 md:px-10"
+    >
       <div className="flex flex-wrap items-center justify-between w-full h-full max-w-screen-xl gap-10 p-5 bg-gray-800 rounded-md md:p-10 md:flex-nowrap">
         <div className="md:max-w-[60%] w-full h-72 md:h-96">
           <Image

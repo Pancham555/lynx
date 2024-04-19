@@ -20,11 +20,12 @@ const Accordion = () => {
       <div
         // style={{
         //   clipPath: `polygon(0 0, 100% 0, 100% 32rem, 0 100%)`,
-        // }} bg-gray-900
+        // }}
+        // bg-gray-900
         className="w-full min-h-[40rem] h-full py-10 bg-cover  text-white flex flex-col justify-center items-center"
       >
-        <div className="flex flex-wrap items-center justify-between md:flex-nowrap z-20">
-          <div className="md:max-w-[50%] px-5 md:px-10 w-full my-auto">
+        <div className="flex flex-wrap items-center align-middle justify-between md:flex-nowrap z-20">
+          <div className="md:max-w-[50%] py-10 px-5 md:px-10 w-full my-auto">
             <audio
               src="/music.mp3"
               ref={ref}
@@ -44,7 +45,7 @@ const Accordion = () => {
             </div>
             <div className="flex justify-between gap-2 lg:gap-6 mt-10 mb-5 md:justify-start flex-nowrap">
               {/* flex-wrap md: */}
-              <a href="#solutions" className="w-auto">
+              <a href="#projects" className="w-auto">
                 <Btn1>See projects</Btn1>
               </a>
               <Btn2
@@ -56,7 +57,7 @@ const Accordion = () => {
               </Btn2>
             </div>
           </div>
-          <div className="md:max-w-[50%] w-full h-full my-auto relative">
+          <div className="md:max-w-[50%] py-0 md:py-10 w-full h-full my-auto relative">
             <Image
               width={900}
               height={900}
