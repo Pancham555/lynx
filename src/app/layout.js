@@ -10,6 +10,7 @@ const font = Space_Grotesk({ subsets: ["latin"], display: "swap" });
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={font.className}>
+      <link rel="icon" href="/Next Lynx.svg" sizes="any" />
       <script
         async
         src="https://lynx-umami.vercel.app/script.js"
