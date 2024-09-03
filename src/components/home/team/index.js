@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 // import Slider from "@/components/components/slider";
-import Image from "next/image";
 
 const Team = () => {
   const teamPics = [
@@ -52,7 +51,8 @@ const Team = () => {
     },
     {
       name: "My Resume",
-      link: "https://drive.google.com/file/d/1Mii5Q98L2xEMXdQWr3cMyzFtxEdy5q4I/view?usp=drive_link",
+     link:"https://drive.google.com/file/d/1WE6JoaAxeTdiVyisqNLndDhUF_37w3SR/view?usp=drivesdk"
+      // link: "https://drive.google.com/file/d/1Mii5Q98L2xEMXdQWr3cMyzFtxEdy5q4I/view?usp=drive_link",
     },
     // {
     //   name: "My YouTube Channel (mostly post meme/ai generated videos)",
