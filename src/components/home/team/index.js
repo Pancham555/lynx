@@ -47,7 +47,8 @@ const Team = () => {
     { name: "Github Profile", link: "https://github.com/Pancham555" },
     {
       name: "LinkedIn Profile",
-      link: "https://www.linkedin.com/in/pancham-barman",
+    //  link: "https://www.linkedin.com/in/pancham-barman",
+   link:"https://drive.google.com/file/d/1WE6JoaAxeTdiVyisqNLndDhUF_37w3SR/view?usp=drivesdk"
     },
     {
       name: "My Resume",
