@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image"
 // import Slider from "@/components/components/slider";
 
 const Team = () => {
